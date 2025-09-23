@@ -36,27 +36,40 @@ erDiagram
 - **Backend**: Express.js, TypeScript, OpenAPI/Swagger
 - **DevOps**: Docker
 
-## 🎯 Key Demo Scenarios
+## 🎯 Hands-On Scenarios
 
-1. **Vibe Coding**
-   - Implement a shopping cart from a design mockup
-   - Watch Copilot analyze, plan, and implement across multiple files
-   - Show real-time UI updates and state management
+1. **Requirements Specifications and Agentic Implementation**
+   - Use a custom prompt to define features and an implementation plan
+      - Use the "Plan" prompt compbined with the MonaFigurine.png file (found in ./docs/design) to create an implementation plan for a new product offering on the website.
+   - Generate UI components from design mockups (using Copilot Vision) and Generated Implementation Plan.
+      - Reference the Implementation Plan created in the previous step to build out the new product offering on the website.
+      - Use the MonaFigurine.png file to generate a product card component for the new product offering.
+      - Integrate the new components into the existing React application.
+   - Finalize the checkout Page using Copilot Vision
+      - Use the CheckoutPage.png file to generate a checkout page for the new product offering.
+      - Integrate the checkout page into the existing React application.
 
-2. **Automated Testing**
-   - Generate BDD feature files
-   - Create and execute Playwright tests
-   - Enhance unit test coverage with intelligent test generation
+2. **GUIDED HANDS-ON: Create a Chat Mode**
+   This activity will be performed together as a group.
+   - Have Copilot Create a Custom Chat Mode using **Agent Mode**
+      - Use Agent Mode and ask Copilot to pull the gist from https://gist.github.com/burkeholland/88af0249c4b6aff3820bf37898c8bacf.  Hint: Use the "Create a Chat Mode" prompt and #fetch the url of the gist. 
 
-3. **Security and Best Practices**
-   - Scan for vulnerabilities using GHAS
-   - Generate automated fixes
-   - Implement security best practices with Copilot guidance
 
-4. **DevOps Automation**
-   - Generate GitHub Actions workflows
-   - Create infrastructure as code
-   - Set up container deployments
+3. **GUIDED HANDS-ON: Create Custom Instructions and a Custom Prompt File**
+   This activity will be performed together as a group.
+   - Use GitHub Copilot Internal Prompting to update the custom instructions for the OctoCAT Supply project.
+     - Hint: Use the "Generate Instructions" prompt to update the custom instructions for the OctoCAT Supply project.
+   - Use GitHub Copilot Internal Prompting to create a custom prompt file for the OctoCAT Supply project to update all existing documentation for the project.
+      - Hint: Use the "Prompt Files" prompt to create a custom prompt file for the OctoCAT Supply project.  
+   - Execute the custom prompt file to update all existing documentation for the project.
+      - Hint: Use the slash command to execute the prompt all existing documentation for the project.  Specifify the README.md file and the docs/architecture.md file if you only want that updated. 
+
+4. **Test Generation and Coverage Improvement**
+   - Analyze existing test coverage
+   - Generate unit and integration tests with Copilot
+      - Hint: Use the "unit test coverage" prompt to generate unit tests for the Product and Supplier routes.
+   - Improve coverage based on analysis
+   - BONUS: Ask GitHub Copilot to execute the tests using the Playwright MCP server.
 
 ## 🚀 Getting Started
 
@@ -77,25 +90,13 @@ Or use the VS Code tasks:
 
 ## 🛠️ MCP Server Setup (Optional)
 
-To showcase extended capabilities:
-
-1. Install Docker/Podman for the GitHub MCP server
-2. Use VS Code command palette:
+Use VS Code command palette:
    - `MCP: List servers` -> `playwright` -> `Start server`
-   - `MCP: List servers` -> `github` -> `Start server`
-3. Configure with a GitHub PAT (required for GitHub MCP server)
 
 ## 📚 Documentation
 
 - [Detailed Architecture](./docs/architecture.md)
 - [Complete Demo Script](./docs/demo-script.md)
-
-## 🎓 Pro Tips for Solution Engineers
-
-- Practice the demos before customer presentations
-- Remember Copilot is non-deterministic - be ready to adapt
-- Mix and match demo scenarios based on your audience
-- Keep your GitHub PAT handy for MCP demos
 
 ---
 

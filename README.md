@@ -22,9 +22,10 @@ This isn't just another demo app - it's a carefully crafted showcase that demons
 
 1. **GUIDED HANDS-ON: Create Custom Instructions and a Custom Prompt File**
    This activity will be performed together as a group.
-   - Use GitHub Copilot Ask Mode to ask Copilot about the API of the project or any other question about your repo. Use the `@workspace` command to give GitHub Copilot Context. 
-      - Sample Prompt: `@workspace Please give me details about the API of this project.`
+   - Use GitHub Copilot Ask Mode and Agent to ask Copilot about the API of the project or any other question about your repo.  
+      - Sample Prompt: `Please give me details about the API of this project.`
       - Sample Prompt: `Are there any core features missing in my project?`
+      - Bonus: `Explain the database operations with mermaid`
    - Use GitHub Copilot Internal Prompting to update the custom instructions for the OctoCAT Supply project.
       - Use the `Gear` icon in the GitHub Copilot Chat window to select the `Generate Agent Instructions` internal prompt. 
          - Create a generic (project wide) GitHub Copilot Instructions file.

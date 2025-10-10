@@ -51,11 +51,13 @@ erDiagram
             - Hint: This file should be in the base directory of the `.github` folder and have the name `copilot-instructions.md`.
          - Create an API specific GitHub Copilot Instructions file using the same process as before.
             - Hint: This file should be in the `.github/instructions` direcotry and have a name that resembles `API.instructions.md`
+            - Sample Prompt: `Please create an API Specific custom instructions set and save in  #file:API.instructions.md `
    - Ask GitHub Copilot questions about your project and discover the use of the `Custom Instructions` files that have been created. 
       - How does your response compare to before?
    - Review Existing GitHub Copilot Prompt files to learn about how they can help speed up your workflow.  Execute one if you'd like.
    - Use GitHub Copilot Internal Prompting to create a custom prompt file for the OctoCAT Supply project to update all existing documentation for the project.
-         - Hint: Use the "Prompt Files" prompt to create a custom prompt file for the OctoCAT Supply project.  
+         - Hint: Use the "Prompt Files" prompt to create a custom prompt file for the OctoCAT Supply project.
+         - Sample Prompt: `Complete the prompt file to update the documentation of this project or the specified file mentioned by the user.  Only update the prompt file, do not update any documentation.`
       - Execute the custom prompt file to update all existing documentation for the project.
          - Hint: Use the slash command to execute the prompt all existing documentation for the project.  Specify the README.md file and the docs/architecture.md file if you only want that updated. 
 
@@ -79,8 +81,9 @@ erDiagram
          Pause.
          ```
 
-
-### NEW BRANCH NEEDED FOR THOSE THAT WANT A FRESH START -- WILL FINALIZE ONCE THE CONCEPT IS APPROVED ###
+---
+### 🛑 If you were unable to complete steps 1 & 2, please merge `Phase_1` branch into `main` to proceed 🛑 ###
+---
 3. **Requirements Specifications and Agentic Implementation**
    - Use previously developed `custom chat mode` to define features and create an implementation plan
       - Use the /docs/design/MonaFigurine.png file (found in ./docs/design) to create a new product offering on the website.
@@ -95,7 +98,8 @@ erDiagram
 
 
 4. **Test Generation and Coverage Improvement**
-   - Analyze existing test coverage
+   - Analyze existing test coverage using `Ask` Mode. 
+       - Sample Prompt:  `Please analyze my current test coverage and identify any missing test cases.`
    - Generate unit and integration tests with Copilot
       - Hint: Use the "unit test coverage" prompt to generate unit tests for the Product and Supplier routes.
    - Improve coverage based on analysis

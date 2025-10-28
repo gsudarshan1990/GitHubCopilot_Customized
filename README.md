@@ -23,8 +23,7 @@ This isn't just another demo app - it's a carefully crafted showcase that demons
 1. **GUIDED HANDS-ON: Create Custom Instructions and a Custom Prompt File**
    This activity will be performed together as a group.
    - Use GitHub Copilot Ask Mode and Agent to ask Copilot about the API of the project or any other question about your repo and run the project to see it live.
-      - Sample Prompt: `Please build and run my project so that I can see its existing state` 
-      - Sample Prompt: `Please give me details about the API of this project and deploy it so I can see it live.`
+      - Sample Prompt: `Please give me details about the API of this project.`
       - Sample Prompt: `Are there any core features missing in my project?`
    - Use Agent mode to have GitHub Copilot build and deploy the existing implementation of the Supply Chain store.
       - Sample Prompt: `Please build and run my project so that I can see its existing state.`

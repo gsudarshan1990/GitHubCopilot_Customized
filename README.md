@@ -20,6 +20,8 @@ This isn't just another demo app - it's a carefully crafted showcase that demons
 
 ## 💻 Hands-On Scenarios
 
+#### Note if you plan to use the FREE version of GitHub Copilot, please perform all activities in your local IDE with one of the included models ####
+
 1. **GUIDED HANDS-ON: Create Custom Instructions and a Custom Prompt File**
    This activity will be performed together as a group.
    - Use GitHub Copilot Ask Mode and Agent to ask Copilot about the API of the project or any other question about your repo and run the project to see it live.

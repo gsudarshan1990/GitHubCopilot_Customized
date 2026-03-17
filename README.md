@@ -76,7 +76,7 @@ This isn't just another demo app - it's a carefully crafted showcase that demons
 
 ---
 6. **Frontend Design review (using agent skills)**
-   - Review the [`.github/skills/frontend-design/SKILL.md`](./.github/skills/frontend-design/SKILL.md) file. This file provides an agent skill for improving frontend design quality.
+   - Review the [`.github/skills/web-design-reviewer/SKILL.md`](./.github/skills/web-design-reviewer/SKILL.md) file. This file provides an agent skill for improving frontend design quality.
    - Ensure that the `chat.useAgentSkills` setting is enabled in VS Code:
       - Open Settings (`Ctrl + ,`) and search for `chat.useAgentSkills`.
    - Start the application locally and ask GitHub Copilot to review your frontend design:
